@@ -1,27 +1,32 @@
-/*code for body*/
 *{
 	margin: 0;
 	padding: 0;
 
 }
+
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 5px;
+}
+.navbar .nav-link {
+  margin-left: 10px;
+}
+.logo{
+	width: 3rem;
+}
+
+
 /*code for header*/
 .header{
 
 }
-/*code for logo*/
-.logo{
-	height: 48px;
-	padding: 2px 10px;
-}
-/*code for navbar*/
-.navbar-toggler{
 
-}
 .container-fluid{
 	padding: 7% 15%;
   }
   
-
 /*code or link active color*/
 li a{
 
@@ -67,7 +72,6 @@ a.btn:hover{
 
 }
 
-
 /*code for image width & height*/
 .img-responsive, .banner-image{
 	padding-top: 10px;
@@ -77,7 +81,7 @@ a.btn:hover{
 .white-section {
 	background-color: #eff7e1;
   }
-/* Features Section */
+/* FEATURES SECTION*/
 
 #features {
 	position: relative;
@@ -95,7 +99,8 @@ a.btn:hover{
 	color: #FF8C00;
 	margin-bottom: 1rem;
   }
-  /*code for footer*/
+
+  /*FOOTER SECTION*/
 .dark-color {
 	background: #252525;
 	color: #eee;
@@ -111,7 +116,7 @@ a.btn:hover{
 	
   }
 
-/*mobile responsive*/
+/*MOBILE RESPONSIVE*/
 @media only screen and (max-width: 1178px) {
 	body {
 	  text-align: center;
