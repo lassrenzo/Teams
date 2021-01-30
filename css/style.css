@@ -27,6 +27,7 @@
 	color: #FF8C00;
 	font-size: 50px;
 }
+
 /*code for active button first bgcolor*/
 a.btn-first{
   	background-color: #FF8C00 ;
@@ -54,8 +55,9 @@ a.btn:hover{
 	color:white;
 }
 
-.img-responsive, .banner-image{
-	width: 100%;
+
+.banner-image{
+	width: 100%
 }
 .white-section {
 	background-color: #eff7e1;
@@ -103,7 +105,9 @@ a.btn:hover{
 	*{
 		text-align: center;
 	}
-	.banner-image{
-		text-align: center;
-	}
   }
+  
+  
+  
+  
+	
