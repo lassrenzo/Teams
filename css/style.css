@@ -17,28 +17,15 @@
 	width: 3rem;
 }
 
-
-/*code for header*/
-.header{
-
-}
-
 .container-fluid{
 	padding: 7% 15%;
   }
   
-/*code or link active color*/
-li a{
 
-}
 /*code for text font and color*/
 .big-text{
 	color: #FF8C00;
 	font-size: 50px;
-}
-/*code for active button*/
-a.btn{
-
 }
 /*code for active button first bgcolor*/
 a.btn-first{
@@ -67,16 +54,8 @@ a.btn:hover{
 	color:white;
 }
 
-/*code for image margin*/
-.banner-info, .banner-image{
-
-}
-
-/*code for image width & height*/
 .img-responsive, .banner-image{
-	padding-top: 10px;
-	width: 600px;
-	height: 400px;
+	width: 100%;
 }
 .white-section {
 	background-color: #eff7e1;
@@ -121,9 +100,10 @@ a.btn:hover{
 	body {
 	  text-align: center;
 	}
+	*{
+		text-align: center;
+	}
+	.banner-image{
+		text-align: center;
+	}
   }
-  
-  
-  
-  
-	
