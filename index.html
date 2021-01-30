@@ -2,65 +2,66 @@
 <html>
 <head>
 	<title>Team</title>
-<!-- This code is for bootstrap cdn -->
+<!-- BOOTSTRAP CDN-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<!-- This code is for Js -->
+<!-- BOOTSTRAP WITH BUNDLE -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+<!-- FONT AWESOME CDN-->	
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
  
-<!-- CSS -->
+<!-- EXTERNAL CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-<!-- this is nav code -->
+			
+<!--NAVBAR-->
 <section>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="main">
 
-<!-- This code is for brand link -->
-  <a class="navbar-brand" href="#"><img class="logo" src="img/teamwork.png"></a>
+	<div class="container">
+		<a class="navbar-brand" href="#main"><img src="img/teamwork.png" class="logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	 <i class="fas fa-bars"></i>
+	</button>
+  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto w-100 justify-content-end">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#main"><i class="far fa-home fa-2x" data-toggle="tooltip" data-placement="bottom" title="Home"></i></a>
+			</li>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="#features"><i class="far fa-list fa-2x" data-toggle="tooltip" data-placement="bottom" title="Features"></i></i></a>
+			</li>
 
-    	<!-- This code is for home link -->
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
-      </li>
-     	<!-- This code is for features link -->
-      <li class="nav-item">
-        <a class="nav-link" href="#features">Features</a>
-      </li>
-    	<!-- This code is for about link -->
-      <li class="nav-item">
-        <a class="nav-link" href="#footer">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+			  <li class="nav-item">
+				<a class="nav-link" href="#footer"><i class="fal fa-address-card fa-2x" data-toggle="tooltip" data-placement="bottom" title="Contacts"></i></a>
+			  </li>
+			  
+		  </ul>
+		</div>
+	  </div>
+	</nav>
 
 
 		<div class="container-fluid">
 			<div class="row">
-<!-- this code is for the content -->
+
 				<div class="col-sm-6 banner-info">
 					<h1>How to</h1>
 					<p class="big-text">Create a Stunning Website</p>
 					<p>Learn how to make beautiful stunning website using HTML, CSS, Bootstrap and jQuery.</p>
-<!-- this code is for the button -->
+
 					<a class="btn btn-first" href="">Like the Page</a>
 					<a class="btn btn-second" href="">Subscribe Us</a>
 				</div>
 
-<!-- this code is for banner image -->
+
 				<div class="col-sm-6 banner-image">
 					<img src="img/company.jpg" class="img-responsive">
 				</div>
@@ -68,8 +69,8 @@
 			</div>
 		</div>
 
-	</header>
-
+</section>
+	<!-- FEATURES-->
 	<section class="white-section" id="features">
 
 		<div class="container-fluid">
