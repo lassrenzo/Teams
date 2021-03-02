@@ -6,4 +6,4 @@ Using: HTML, CSS, JS and Bootstrap
 
 ## Link to my project
 
-[Red Velvet](https://lassrenzo.github.io/RedVelvet/)
+[Teams](https://lassrenzo.github.io/Teams/)
